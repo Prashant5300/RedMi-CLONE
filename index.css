@@ -1,0 +1,236 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: white;
+}
+/* navbar CSS */
+#navigation_bar{
+    /* height: 30px;
+    width: 100%; */
+    /* border: 10px solid red; */
+    background-color: black;
+    display: flex;
+    justify-content: flex-end;
+    padding: 1%;
+    box-shadow: rgba(0, 0, 0, 0.15) 0px 3px 3px 0px;
+}
+#in{
+    margin-right: 20px;
+}
+#up{
+    margin-right: 250px;
+}
+/* navbar CSS complete */
+/* top banner */
+/* #top_banner{
+    height: 50%;
+    width: 100%;
+    /* border: 10px solid red; */
+    /* padding-bottom: 5%;
+} */ 
+/* top banner complete */
+/* home pannel between navbar and top banner */
+#home_Pannel{
+    display: flex;
+    background-color: #eef2fa;
+    height: 80px;
+    width: 100%;
+    /* justify-content: center; */
+}
+#home{
+    height: 100px;
+    width: 100px;
+    padding: 1;
+    margin-left: 200px;
+}
+#Mobile{
+    height: 100%;
+    width: 1200px;
+    /* border: 2px solid red; */
+    margin-left: 200px;
+    justify-content: space-around;
+}
+#Redmi_Phones{
+    margin-top: 30px;
+    margin-left: 10%;
+    cursor: pointer;
+    height: 30px;
+    border-radius: 10%;
+    background-color: #eef2fa;
+}
+#audio{
+    margin-top: 30px;
+    margin-left: 20%;
+    cursor: pointer;
+    height: 30px;
+    border-radius: 10%;
+    background-color: #eef2fa;
+}
+#xiomi_Phones{
+    margin-top: 30px;
+    margin-left: 20%;
+    cursor: pointer;
+    height: 30px;
+    border-radius: 10%;
+    background-color: #eef2fa;
+}
+
+/* home pannel between navbar and top banner complete */
+/* phones redmi */
+#mimi{
+    display: flex;
+    /* border: 10px solid red; */
+    height: 300px;
+    width: 90%;
+    /* margin: auto; */
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: auto;
+    margin-bottom: auto;
+    padding-bottom: 30px;
+}
+#mimiphn{
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+h2{
+    margin-top: 10%;
+    text-align: center;
+    font-size: 50px;
+    color: #e0e0e0;
+}
+/* .item1{
+    grid-area: 1;
+}
+.item2{
+    grid-area: 2;
+}
+.item3{
+    grid-area: 3;
+}
+.item4{
+    grid-area: 4;
+}
+.star{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-areas: 
+    '1 1 2 3'
+    '1 1 2 3'
+    '1 1 4 4'
+    '1 1 4 4'
+    /* '1 1 1 1 4 4 4 4'
+    '1 1 1 1 4 4 4 4'
+    '1 1 1 1 4 4 4 4'
+    '1 1 1 1 4 4 4 4' ;
+    gap: 10px;
+    background-color: aqua;
+    border: 10px solid red;
+    height: 500px;
+    padding: 10px;
+}
+.star > div{
+    background-color: rgba(255, 255, 255, 0.8);
+    text-align: center;
+    padding: 20px 0;
+    font-size: 30px;
+} */
+.item1 { grid-area: pic1; }
+.item2 { grid-area: pic2; }
+.item3 { grid-area: pic3; }
+.item4 { grid-area: pic4; }
+.star {
+    /* border: 1px solid red; */
+    padding-top: 100px;
+    height: 50%;
+    width: 80%;
+    margin: auto;
+    display: grid;
+    grid-template-areas:
+      'pic1 pic1 pic1 pic1 pic2 pic2 pic3 pic3'
+      'pic1 pic1 pic1 pic1 pic2 pic2 pic3 pic3'
+      'pic1 pic1 pic1 pic1 pic4 pic4 pic4 pic4'
+      'pic1 pic1 pic1 pic1 pic4 pic4 pic4 pic4';
+    gap: 10px;
+    /* background-color: #2196F3; */
+    padding-bottom: 100px;
+  }
+  
+  .star > div {
+    background-color: rgba(255, 255, 255, 0.8);
+    text-align: center;
+    padding: 20px 0;
+    font-size: 30px;
+  }
+  .connect{
+      height: 10px;
+      width: 80%;
+      /* border: 1px solid red; */
+      margin: auto;
+      display: flex;
+      padding-bottom: 50px;
+  }
+  .n123{
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  .mail{
+      height: 30px;
+      width: 25%;
+      /* border: 1px solid black; */
+      margin-left: 3%;
+      width: 25%;
+  }
+  #mail{
+      /* border: 1px solid red; */
+      height: 100%;
+      width: 80%;
+  }
+  .follow{
+      display: flex;
+      /* border: 1px solid red; */
+      margin: auto;
+      justify-content: space-around;
+      /* margin-left: 100px; */
+      width: 15%;
+  }
+  .bottom{
+      color: white;
+      display: flex;
+      height: 300px;
+      width: 100%;
+      background-color: black;
+      /* margin: auto; */
+  }
+  .shop{
+      /* display: inline; */
+      margin-left: 10%;
+      margin-top: 50px;
+      /* margin: auto; */
+  }
+  .support{
+      /* margin: auto; */
+      margin-left: 100px;
+      margin-top: 50px;
+  }
+  .connectUs{
+      /* margin: auto; */
+      margin-left: 100px;
+      margin-top: 50px;
+  }
+  .aboutUs{
+      /* margin: auto; */
+      margin-left: 100px;
+      margin-top: 50px;
+  }
+ 
+  a{
+      color: white;
+  }
+  ul{
+      list-style-type: none;
+  }
